@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name : CF PUSH
-        uses: jhunt/cf-push@main
+        uses: rangulvers/cf-push@main
         with:
           api:      ${{ secrets.CF_API }}
           org:      ${{ secrets.CF_ORG }}
